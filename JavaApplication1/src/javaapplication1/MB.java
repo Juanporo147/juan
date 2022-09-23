@@ -12,7 +12,7 @@ public class MB{
     public static void main(String[] args) {
         Scanner teclado=new Scanner(System.in);
         int opcion,re;
-        int[ ] numero = new int [5];
+        int[ ] numero = new int [6];
         do{
             System.out.println("Ingrese la opcion que quiera escoger");
             System.out.println("1.Cases listos");
@@ -51,6 +51,12 @@ public class MB{
                     break;
                 case 7:
                     System.out.println("Inventario");
+                    System.out.println("1.Cases listos " + numero[0]);
+                    System.out.println("2.Ratones " + numero[1]);
+                    System.out.println("3.Monitores " + numero[2]);
+                    System.out.println("4.Teclados " + numero[3]);
+                    System.out.println("5.Parlantes " + numero[4]);
+                    System.out.println("6.Memorias USB " + numero[5]);
                     break;
                 case 8:
                     break;
@@ -60,5 +66,4 @@ public class MB{
             re = teclado.nextInt();
         }while(re==1);
     }//fin main
-    
 }//fin class
