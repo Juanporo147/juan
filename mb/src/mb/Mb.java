@@ -1,24 +1,21 @@
-/**
- * Nombres:Kevin Gomez, Ricardo Sevilla, Nayeli Parra
- * Curso:3ro Inf A
- * Tema:Proyecto mb
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
 package mb;
-import java.util.Scanner;
+
+/**
+ *
+ * @author L3C25
+ */
 public class Mb {
 
-
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-        Scanner teclado=new Scanner(System.in);
-        int opcion = 0,cant;
-        System.out.println("1.Case ensamblados");
-        System.out.println("2.Mouse ");
-        
-        switch(opcion){
-            case 1:
-                
-        }//fin switch
-        
-    }//fin main
+        // TODO code application logic here
+    }
     
-}//fin class
+}
